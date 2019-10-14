@@ -1,4 +1,3 @@
-
 const random = (min, max) => {
   return (max === undefined) ? ((min === undefined) ? Math.random() : Math.random() * min) : Math.random() * (max - min) + min;
 };
@@ -20,8 +19,6 @@ var clamp = (v, min, max) => {
 
 // Color Utils
 //------------------------------
-// in : 0 <=  r, g, b  <= 255
-// out: 0 <= [h, s, b] <= 255
 const rgbToHsb = (r, g, b) => {
   let max = r;
   if(g > max) max = g;
@@ -227,17 +224,12 @@ class Canvas {
   constructor(canvasId) {
     this.eCanvas = document.getElementById(canvasId);
     this.ctx = this.eCanvas.getContext('2d');
-
     this.resize();
-
-    // フィルターのブラー半径を取得
     const eFilter = document.getElementById('metaball');
     const eBlur = eFilter.querySelector('feGaussianBlur');
     const blurAmt = parseInt(eBlur.getAttribute('stdDeviation'));
-
     this.btn = new Button('btn-circle', blurAmt);
     this.particles = new Particles(this.btn.rgb);
-
     this.frame = 0;
     this.isSleeping = false;
     this.draw(this.ctx);// start animation
@@ -259,16 +251,11 @@ class Canvas {
   draw(ctx) {
     this.update(performance.now() / 1000);
     this.frame = window.requestAnimationFrame(_ => this.draw(ctx));
-
-    // 動いていないときは再描画しない
     if(this.isSleeping) return;
-
     ctx.clearRect(0, 0, res.w, res.h);
-
     ctx.save();
     {
       ctx.globalCompositeOperation = 'screen';
-
       this.btn.draw(ctx);
       this.particles.draw(ctx);
     }
@@ -286,9 +273,7 @@ class Canvas {
 class Page {
   constructor() {
     this.resize();
-
     const canvas = new Canvas('canvas');
-
     window.addEventListener('resize', e => {
       this.resize();
       canvas.resize();
@@ -300,7 +285,6 @@ class Page {
     res.h = window.innerHeight;
   }
 };
-
 //------------------------------
 window.addEventListener('DOMContentLoaded', () => {
   const page = new Page();

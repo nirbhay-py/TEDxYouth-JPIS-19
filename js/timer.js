@@ -1,14 +1,11 @@
-var countDownDate = new Date("Jan 5, 2020 15:37:25").getTime();
+var countDownDate = new Date("Jan 17, 2020 9:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
-
   // Get today's date and time
   var now = new Date().getTime();
-
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
-
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -27,7 +24,8 @@ var x = setInterval(function() {
     minutesStr = "0"+minutes.toString();
   }
   console.log(hours)
-  // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + " DAYS\n" + hoursStr + ":"
+  var string = days + "\nDAYS" + "\n"+hoursStr + ":"
   + minutesStr + ":" + secondsStr + "\n";
+  console.log(string);
+  document.getElementById("timer").innerHTML = string;
 }, 1000);
