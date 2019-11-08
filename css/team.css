@@ -19,7 +19,7 @@ i{
 	color: white;
 }
 .tab img{
-	width: 45vh;
+	width: 40vh;
 	height: 50vh;
 	margin: 3% 50%;
 	position: relative;
@@ -59,12 +59,12 @@ position: absolute;
   left: 49%;
 /*  border-radius: 50%;*/
   font-size: 34px;
-  color: #000000; 
+  color: #000000;
   width:100px;
   text-align: center;
   height: 60px;
   color: white;
-  font-size: 25px; 
+  font-size: 25px;
   transform: translate(-50%, -50%) scale(0);
   transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
