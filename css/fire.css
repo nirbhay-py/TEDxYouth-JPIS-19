@@ -1,29 +1,28 @@
 #btn-circle {
   position: fixed;
-  width: 300px;
-  height:300px;
-  border-radius: 50%;
+  width: 400px;
+  height:400px;
+  border-radius: 50%
+	display:inline-block;
   top: 50%;
+	text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-
   background-color: rgba(255, 0, 0, 0);
 }
 #btn-circle span {
-  font-family: 'Anton', sans-serif;
-  font-style: italic;
-  font-size: 3em;
+	font-weight: 900;
+  font-size: 2em;
   letter-spacing: 0.1em;
   text-align: center;
   color: #000;
-  display: block;
+  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
-
 
 #canvas {
   position: fixed;

@@ -94,11 +94,11 @@ class Particle {
     this.x = x;
     this.y = y;
     const dirAngle = randomf() * Math.PI;
-    const strength = random(2, 4.0);
+    const strength = random(2, 3);
     this.vx = Math.cos(dirAngle) * strength;
     this.vy = Math.sin(dirAngle) * strength;
     this.r = r;
-    this.angle = 10;
+    this.angle = 1;
     this.anglePlus = randomf() * Math.PI * 0.01;
     this.rgba = [...rgba];// 元の色を操作しないためにコピーを代入
     this.dead = false;
@@ -163,7 +163,7 @@ class Particles {
   }
 
   add(x, y) {
-    const radius = random(5, 40);
+    const radius = random(5, 50);
     const hsb = rgbToHsb(...this._rgb);
     const hue = (hsb[0] + random(10)) % 255;
     const rgb = hsbToRgb(hue, hsb[1], hsb[2]);
