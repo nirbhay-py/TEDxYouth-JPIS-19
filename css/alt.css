@@ -1,0 +1,29 @@
+*{
+	font-weight:400;
+
+}
+html, body{
+	text-align: center;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+	background: black!important
+}
+nav{
+	background: black!important;
+	border-bottom: 2px solid #1e1e1e;
+}
+canvas{
+	z-index: -1!important;
+	height: 110%;
+}
+
+#timer{
+	display: inline-block;
+	color: #e62b1e;
+	font-size: 20px!important;
+	background: black!important;
+	border:2px solid #e62b1e;
+	padding: 5px;
+	margin-right: 20px!important;
+}
