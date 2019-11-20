@@ -1,5 +1,5 @@
 *{
-	font-weight:400;
+	font-weight:700;
 
 }
 html, body{
@@ -11,7 +11,9 @@ html, body{
 }
 nav{
 	background: black!important;
-	border-bottom: 2px solid #1e1e1e;
+	border-bottom: 2px solid #e62b1e;
+	font-size: 23px;
+	font-weight: 700;
 }
 canvas{
 	z-index: -1!important;
@@ -26,4 +28,24 @@ canvas{
 	border:2px solid #e62b1e;
 	padding: 5px;
 	margin-right: 20px!important;
+}
+@media only screen and (max-width: 600px) {
+	nav{
+		text-align: center;
+	}
+  #mainLogo{width: 100%;height: auto;}
+	.navbar-brand{
+		width: 50%;
+	}
+	#timer{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 15px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	li{
+		margin-left: 40px!important;
+	}
+
 }
