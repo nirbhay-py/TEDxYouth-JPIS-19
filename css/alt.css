@@ -1,5 +1,6 @@
 *{
-	font-weight:700;
+	font-weight:700!important;
+	font-family: 'Montserrat',sans-serif;
 
 }
 html, body{
@@ -29,9 +30,37 @@ canvas{
 	padding: 5px;
 	margin-right: 20px!important;
 }
+
+@media only screen and (min-width: 600px) {
+	li{
+		margin-left: 40px!important;
+	}
+}
+#welcomeTxt1{
+	color: white;
+	font-size: 8em;
+	position: absolute;
+	left: 30%;
+  top: 20%;
+}
+#welcomeTxt2{
+	color: white;
+	font-size: 8em;
+	position: absolute;
+	left: 40%;
+  top: 40%;
+}
+#welcomeTxt3{
+	color: white;
+	font-size: 8em;
+	position: absolute;
+	left: 50%;
+  top: 60%;
+}
 @media only screen and (max-width: 600px) {
 	nav{
 		text-align: center;
+		z-index: 11!important;
 	}
   #mainLogo{width: 100%;height: auto;}
 	.navbar-brand{
@@ -42,10 +71,33 @@ canvas{
 		margin-bottom: 20px;
 		padding: 15px;
 	}
-}
-@media only screen and (min-width: 600px) {
-	li{
-		margin-left: 40px!important;
+	#welcomeTxt1{
+		color: white;
+		font-size: 2em;
+		position: absolute;
+		left: 5%;
+	  top: 10%;
 	}
-
+	#welcomeTxt2{
+		color: white;
+		font-size: 2em;
+		position: absolute;
+		left: 10%;
+	  top: 15%;
+	}
+	#welcomeTxt3{
+		color: white;
+		font-size: 2em;
+		position: absolute;
+		left: 15%;
+	  top: 20%;
+	}
+}
+h2{
+	transition: 0.3s all;
+}
+h2:hover{
+	transform: scale(1.2);
+	transition: 0.3s all;
+	cursor: pointer;
 }
