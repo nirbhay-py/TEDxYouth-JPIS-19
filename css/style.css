@@ -28,7 +28,10 @@ canvas{
   background-repeat: no-repeat;
 }
 nav{
-	background: transparent!important;
+	background: black!important;
+	border-bottom: 2px solid #e62b1e;
+	font-size: 23px;
+	font-weight: 700;
 }
 #mainLogo{
 	width: 300px;
