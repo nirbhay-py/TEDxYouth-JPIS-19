@@ -38,24 +38,24 @@ canvas{
 }
 #welcomeTxt1{
 	color: white;
-	font-size: 8em;
+	font-size: 5em;
 	position: absolute;
-	left: 30%;
-  top: 20%;
+	left: 25%;
+  top: 30%;
 }
 #welcomeTxt2{
 	color: white;
-	font-size: 8em;
+	font-size: 5em;
 	position: absolute;
-	left: 40%;
-  top: 40%;
+	left: 35%;
+  top: 50%;
 }
 #welcomeTxt3{
 	color: white;
-	font-size: 8em;
+	font-size: 5em;
 	position: absolute;
-	left: 50%;
-  top: 60%;
+	left: 45%;
+  top: 70%;
 }
 @media only screen and (max-width: 600px) {
 	nav{
@@ -75,7 +75,7 @@ canvas{
 		color: white;
 		font-size: 2em;
 		position: absolute;
-		left: 5%;
+		left: 10%;
 	  top: 10%;
 	}
 	#welcomeTxt2{
