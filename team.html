@@ -1,222 +1,284 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/team.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Meet The Team!</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
-</head>
-<body>
-	<style>
-	.teamImg{
-		 border-radius: 20px!important;
-		 width:40vw!important;
-	}
-	*{
-		font-weight: 700!important;
-		font-family: "Montserrat",sans-serif;
-	}
-	nav{
-		background: black!important;
-		border-bottom: 2px solid #e62b1e;
-		font-size: 23px;
-		font-weight: 700;
-	}
-	#timer{
-		display: inline-block;
-		color: #e62b1e;
-		font-size: 20px!important;
-		background: black!important;
-		border:2px solid #e62b1e;
-		padding: 5px;
-		margin-right: 20px!important;
-	}
-	@media only screen and (max-width: 600px) {
-		nav{
-			text-align: center;
-		}
-		#mainLogo{width: 100%;height: auto;}
-		.navbar-brand{
-			width: 50%;
-		}
-		#timer{
-			margin-top: 20px;
-			margin-bottom: 20px;
-			padding: 15px;
-		}
-		.tab{
-			flex-direction: column;
-		}
-		.item{
-			width: 80%!important;
-		}
-		#particles-js{
-			height:1400vh;
-		}
-	}
-	@media only screen and (min-width: 600px) {
-		li{
-			margin-left: 40px!important;
-		}
-	}
-	h2{
-		color:black!important;
-		margin-top: 100px;
-	}
-	.grid{
-		background-color: white;
-		width: 80%;
-		margin:0 auto;
-	}
-	.item{
-		border-radius: 15px;
-	}
-.name{
-		color: black;
-	}
-	</style>
-	<div id="particles-js">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<header>
+<link rel="stylesheet" href="css/sponso.css">
 
-	</div>
-	<nav class="navbar navbar-expand-lg navbar-dark">
-		<a class="navbar-brand" href="index.html"><img src="assets/logo.png" id="mainLogo"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<span id="timer"></span>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Meet the team</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link " href="#">Speakers</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link " href="#">Sponsors</a>
-				</li>
-
-			</ul>
-		</div>
-	</nav>
-  <div class="grid">
-  	<h2>Curators and Lead Organisers</h2>
-  	<div class="tab">
-  		<div class ="item"> <img class = "teamImg"src="assets/team/ritvik.jpg">
-  			<p>Description</p>
-        <span class="name">Ritvik Rai</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-  		</div>
-  		<div class ="item"> <img class = "teamImg" src="assets/team/ishita.jpg">
-        <p>Diligent, Energetic, Charismatic</p>
-        <span class="name">Ishita Marda</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-  	</div>
-    <h2>Creative Design Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/Mridvika.jpg">
-        <p>Description</p>
-        <span class="name">Mridvika Shah</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/mehak.jpg">
-        <p>Description</p>
-        <span class="name">Mehak Jain</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-    <h2>Digital Design Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/ananya.jpg">
-        <p>Description</p>
-        <span class="name">Ananya Jain</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/rohit.jpg">
-        <p>Description</p>
-        <span class="name">Rohit Arora</span><span id="icons"><a href="https://www.instagram.com/rohitarora_15/" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/profile.php?id=100011854504955" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-    <h2>Tech Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/abhinav.jpg">
-        <p>Intuitive, Learner, Leader</p>
-        <span class="name">Abhinav Gupta</span><span id="icons"><a href="https://www.instagram.com/_abhinav._2002/" class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/vanshaj.PNG">
-        <p>Exuberant, Sincere, Sharp</p>
-        <span class="name">Vanshaj Jain</span><span id="icons"><a href="https://www.instagram.com/vanshaj24/" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/vanshajj" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-     <h2>Finance Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/manhar.jpg">
-        <p>Charismatic, Expressive, Leader</p>
-        <span class="name">Manhar Dixit</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/saara.jpg">
-        <p>Enthusiastic, Versatile, Collaborative</p>
-        <span class="name">Saara Bhatia</span><span id="icons"><a href="https://www.instagram.com/saarabhatia/" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/saarabhatia" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-     <h2>Logistics Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/anaihita.jpg">
-        <p>Meticulous, Sagecious, Compassionate</p>
-        <span class="name">Anaihita Johar</span><span id="icons"><a href="https://instagram.com/anaihita_?igshid=kpi5i7a7b99j" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/profile.php?id=100000316868428" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/saara.jpg">
-        <p>Creative, Witty, Amiable, Inventive</p>
-        <span class="name">Arnav Sharma</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-     <h2>Event-Day Heads</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/tanvi.jpg">
-        <p>Perfectionist, Persistent, Passionate</p>
-        <span class="name">Tanvi Chaturvedy</span><span id="icons"><a href="https://www.instagram.com/tanvi_2001/" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/tanvi.chaturvedy" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/ronit.jpg">
-        <p>Diligent, Brilliant, Profound</p>
-        <span class="name">Ronit Singhi</span><span id="icons"><a href="https://www.instagram.com/rsinghi2112/?hl=en" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/ronit.singhi" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-    <h2>Hosts</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/manhar.jpg">
-        <p>Charismatic, Expressive, Leader</p>
-        <span class="name">Manhar Dixit</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-      <div class ="item"> <img class = "teamImg" src="assets/team/Arul.jpg">
-        <p>Punny, Annoying, Confident</p>
-        <span class="name">Arul Garg</span><span id="icons"><a href="https://www.instagram.com/nufrufrufru/" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/profile.php?id=100008330986632" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-<div class ="item"> <img src="assets/team/vrinda.jpg">
-        <p>Description</p>
-        <span class="name">Vrinda Sonkiya</span><span id="icons"><a class="fa fa-instagram fa-2x" style="color:black"></a> <a class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-    <h2>Volunteer Head</h2>
-    <div class="tab">
-      <div class ="item"> <img class = "teamImg" src="assets/team/dhriti.jpg">
-        <p>Description</p>
-        <span class="name">Dhriti Bhavsar</span><span id="icons"><a href="https://www.instagram.com/dhriti_bhavsar/?hl=en" class="fa fa-instagram fa-2x" style="color:black"></a> <a href="https://www.facebook.com/dhriti.bhavsar.75" class="fa fa-facebook-square fa-2x" style="color:black"></a></span>
-      </div>
-    </div>
-
+  <div class='container'>
+    <h1>The Team</h1>
+    <hr>
   </div>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
-<script  src="js/timer.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+</header>
+<div class='container'>
+  <ul>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/black.png">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>The TEDxYouth@JPIS Team of 2019</h3>
+        <p></p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src='assets/team/ritvik.jpg'>
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Curator/Lead Organizer</h3>
+        <p>Ritvik is Lorem ipsum dolor sit </p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/ishita.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Curator/Lead Organizer</h3>
+        <p>Ishita</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/black.png">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>The 17 people behind bringing everything together</h3>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/ananya.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Ananya is Loror in reprehenderit in voluroident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </li>
+
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/rohit.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/mridvika.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/mehak.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/ronit.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/tanvi.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/arnav.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/anaihita.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/manhar.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/saara.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/abhinav.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/vanshaj.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/vrinda.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/arul.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/manhar.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+    <li>
+      <a class='normal' href='#'>
+        <img viewBox='0 0 80 76' x='0px' y='0px' src="assets/team/dhriti.jpg">
+          <g>
+            <path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+          </g>
+        </img>
+      </a>
+      <div class='info'>
+        <h3>Digital Design Head</h3>
+        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+<script src="js/new.js">
+
+</script>
+  </body>
 </html>
