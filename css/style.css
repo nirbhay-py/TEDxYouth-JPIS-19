@@ -1,11 +1,9 @@
-*{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 
-}
 html,body{
 	width:100%;
 	height:100%;
+	overflow: hidden;
+	/* background-image: url('./assets/back.png') */
 	margin: 0;
 }
 canvas{
@@ -28,10 +26,9 @@ canvas{
   background-repeat: no-repeat;
 }
 nav{
-	background: black!important;
-	border-bottom: 2px solid #e62b1e;
-	font-size: 23px;
-	font-weight: 700;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1)!important;
+	position: absolute!important;
 }
 #mainLogo{
 	width: 300px;
