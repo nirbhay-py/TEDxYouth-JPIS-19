@@ -1,13 +1,15 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
 img{
   width: 200px;
   height: 200px;
 }
-h1{
-  color: white;
-}
 li {
   -webkit-perspective: 400px;
           perspective: 400px;
+
 }
 
 .info {
@@ -271,6 +273,15 @@ li h3 {
   margin: 0;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-weight: bold;
+}
+li h2 {
+  margin: 0;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+
 }
 li p {
   font-size: 12px;
@@ -306,6 +317,7 @@ body {
 h1 {
   margin: 0 auto 5px;
   text-align: center;
+  font-size: 50px;
 }
 
 h3 {
@@ -326,4 +338,8 @@ header {
 header p {
   margin: 0;
   color: rgba(52, 73, 94, 0.4);
+}
+i{
+  padding-left: 15px;
+  padding-left: 15px;
 }
