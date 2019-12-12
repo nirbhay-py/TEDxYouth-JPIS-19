@@ -325,7 +325,7 @@ h3 {
 }
 
 .container {
-  width: 840px;
+  width: 870px !important;
   margin: 0 auto;
 }
 

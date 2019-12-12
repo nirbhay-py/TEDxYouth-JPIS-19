@@ -97,6 +97,9 @@ body{
 
 .content-image{
   width: 100%;
+  background-repeat: no-repeat;
+background-position: 50%;
+background-size: 70.7%;
 }
 
 .content-details {
