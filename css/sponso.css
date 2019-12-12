@@ -1,6 +1,8 @@
 *{
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
+  border-color: black;
+  /* overflow-x: hidden; */
 }
 img{
   width: 200px;
@@ -21,7 +23,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 4px;
+  border-radius: 2px;
   pointer-events: none;
   background-color: #e62b1e;
 }
@@ -324,8 +326,8 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-.container {
-  width: 870px !important;
+.containers {
+  width: 840px;
   margin: 0 auto;
 }
 
