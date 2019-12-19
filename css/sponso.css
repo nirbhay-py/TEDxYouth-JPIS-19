@@ -327,7 +327,8 @@ h3 {
 }
 
 .containers {
-  width: 840px;
+  max-width: 840px;
+  width: 80vw;
   margin: 0 auto;
 }
 
