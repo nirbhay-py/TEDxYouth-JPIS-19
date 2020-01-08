@@ -346,3 +346,7 @@ i{
   padding-left: 15px;
   padding-left: 15px;
 }
+
+.potty {
+  pointer-events: all;
+}
